@@ -2,11 +2,16 @@
 C\ Sharp/.DS_Store
 C\ Sharp/Sofe.sln
 C\ Sharp/Sofe.userprefs
-C\ Sharp/bin/
-C\ Sharp/obj/
+C\ Sharp/bin/*
+C\ Sharp/obj/*
 Java/.DS_Store
-Java/.idea/
+Java/.idea/*
 Java/Sofe.iml
 Java/src/test/.DS_Store
 Java/src/test/java/.DS_Store
-Java/target/
+Java/target/*
+Java/.classpath
+Java/.project
+Java/.settings/*
+Java/Sofe/target/*
+
