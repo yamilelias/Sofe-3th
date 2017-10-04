@@ -9,16 +9,17 @@ namespace Sofe
         [Fact]
         public void MinimizeTravelTest()
         {
-
             int[,] adjacencyMatrix = {
                 {0,1,2},
                 {1,0,1},
                 {2,1,0}};
 			int result = Traveler.MinimizeTravel(adjacencyMatrix);
 			Assert.Equal(4, result);
+        }
 
-
-
+        [Fact]
+        public void TestMinimizeTravelMedium()
+        {
             int[,] adjacencyMatrixMed = {
                 {0,3,4,3,4},
                 {3,0,4,3,4},
@@ -27,10 +28,12 @@ namespace Sofe
                 {4,4,4,4,0}};
             int resultMed = Traveler.MinimizeTravel(adjacencyMatrixMed);
             Assert.Equal(17, resultMed);
+        }
 
-
-
-			int[,] adjacencyMatrixHard = {
+        [Fact]
+        public void TestMinimizeTravelHard()
+        {
+            int[,] adjacencyMatrixHard = {
 				{0, 57, 45, 59, 42, 53, 58, 59, 47, 57},
                 {58, 0, 56, 42, 49, 41, 43, 43, 57, 56},
                 {42, 43, 0, 59, 53, 45, 50, 59, 50, 55},
@@ -43,10 +46,12 @@ namespace Sofe
                 {41, 53, 51, 59, 46, 47, 45, 44, 55, 0}};
 			int resultHard = Traveler.MinimizeTravel(adjacencyMatrixHard);
 			Assert.Equal(427, resultHard);
+        }
 
-
-
-			int[,] adjacencyMatrixHarder = {
+        [Fact]
+        public void TestMinimizeTravelCrazy()
+        {
+            int[,] adjacencyMatrixHarder = {
 				{0, 43, 58, 40, 40, 59, 59, 51, 45, 52, 50, 44},
                 {51, 0, 49, 46, 56, 53, 51, 42, 47, 59, 42, 47},
                 {42, 53, 0, 59, 59, 54, 46, 59, 49, 58, 47, 53},

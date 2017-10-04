@@ -1,4 +1,4 @@
-package Sofe;
+package sofe;
 
 import org.junit.Test;
 
@@ -7,17 +7,17 @@ import static org.junit.Assert.assertEquals;
 public class TravelerTest {
 
     @Test
-    public void MinimizeTravelTest() {
-
+    public void testMinimizeTravel() {
         int[][] adjacencyMatrix = {
             {0,1,2},
             {1,0,1},
             {2,1,0}};
         int result = Traveler.minimizeTravel(adjacencyMatrix);
         assertEquals(4, result);
+    }
 
-
-
+    @Test
+    public void testMinimizeTravelMedium(){
         int[][] adjacencyMatrixMed = {
             {0,3,4,3,4},
             {3,0,4,3,4},
@@ -26,9 +26,10 @@ public class TravelerTest {
             {4,4,4,4,0}};
         int resultMed = Traveler.minimizeTravel(adjacencyMatrixMed);
         assertEquals(17, resultMed);
+    }
 
-
-
+    @Test
+    public void testMinimizeTravelHard(){
         int[][] adjacencyMatrixHard = {
             {0, 57, 45, 59, 42, 53, 58, 59, 47, 57},
             {58, 0, 56, 42, 49, 41, 43, 43, 57, 56},
@@ -42,9 +43,10 @@ public class TravelerTest {
             {41, 53, 51, 59, 46, 47, 45, 44, 55, 0}};
         int resultHard = Traveler.minimizeTravel(adjacencyMatrixHard);
         assertEquals(427, resultHard);
+    }
 
-
-
+    @Test
+    public void testMinimizeTravelCrazy(){
         int[][] adjacencyMatrixHarder = {
             {0, 43, 58, 40, 40, 59, 59, 51, 45, 52, 50, 44},
             {51, 0, 49, 46, 56, 53, 51, 42, 47, 59, 42, 47},
