@@ -1,38 +1,42 @@
-package sofe.exercise1;
+using System;
+using Xunit;
 
-import org.junit.Test;
+namespace Sofe.extra
+{
+    public class ContinuousArrayTest {
 
-import static org.junit.Assert.assertEquals;
+        [Fact]
+        public void TestAlmostIncreasingSequenceOne() 
+        {
+            int[] array = {-30, -19, 123, -17, -5, 1, 2, 3, 12, 43, 45};
+            bool isSequence = ContinuousArray.AlmostIncreasingSequence(array);
+            Assert.Equal(true, isSequence);
 
-public class ContinuousArrayTest {
+        }
 
-    @Test
-    public void testAlmostIncreasingSequenceOne() {
-        int array[] = {-30, -19, 123, -17, -5, 1, 2, 3, 12, 43, 45} ;
-        boolean isSequence = ContinuousArray.almostIncreasingSequence(array);
-        assertEquals(true, isSequence);
+        [Fact]
+        public void TestAlmostIncreasingSequenceTwo() 
+        {
+            int[] array = {1, 2, 3, 6, 3, 7};
+            bool isSequence = ContinuousArray.AlmostIncreasingSequence(array);
+            Assert.Equal(true, isSequence);
+        }
+
+        [Fact]
+        public void TestAlmostIncreasingSequenceThree() 
+        {
+            int[] array = {10, 1, 2, 3, 4, 5, 6, 1};
+            bool isSequence = ContinuousArray.AlmostIncreasingSequence(array);
+            Assert.Equal(false, isSequence);
+        }
+
+        [Fact]
+        public void TestAlmostIncreasingSequenceFour() 
+        {
+            int[] array = {-127, -64, -50, -10, 2, 4, 5, 6, 7, 8, 12, 16, 40};
+            bool isSequence = ContinuousArray.AlmostIncreasingSequence(array);
+            Assert.Equal(true, isSequence);
+        }
 
     }
-
-    @Test
-    public void testAlmostIncreasingSequenceTwo() {
-        int array[] = {1, 2, 3, 6, 3, 7};
-        boolean isSequence = ContinuousArray.almostIncreasingSequence(array);
-        assertEquals(true, isSequence);
-    }
-
-    @Test
-    public void testAlmostIncreasingSequenceThree() {
-        int array[] = {10, 1, 2, 3, 4, 5, 6, 1};
-        boolean isSequence = ContinuousArray.almostIncreasingSequence(array);
-        assertEquals(false, isSequence);
-    }
-
-    @Test
-    public void testAlmostIncreasingSequenceFour() {
-        int array[] = {-127, -64, -50, -10, 2, 4, 5, 6, 7, 8, 12, 16, 40};
-        boolean isSequence = ContinuousArray.almostIncreasingSequence(array);
-        assertEquals(true, isSequence);
-    }
-
 }

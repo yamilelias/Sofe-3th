@@ -1,39 +1,44 @@
-package sofe.exercise2;
+using System;
+using Xunit;
 
-import org.junit.Test;
+namespace Sofe.extra
+{
+    public class ReverseParenthesisTest 
+    {
 
-import static org.junit.Assert.assertEquals;
+        [Fact]
+        public void TestReverseParenthesisTestOne() 
+        {
+            string text = "ni(ppo)n";
+            string reversedText = ReverseParenthesis.ReverseParenthesis(text);
+            Assert.Equal("nioppn", reversedText);
+        }
 
-public class ReverseParenthesisTest {
 
-    @Test
-    public void testReverseParenthesisTestOne() {
-        String text = "ni(ppo)n";
-        String reversedText = ReverseParenthesis.reverseParenthesis(text);
-        assertEquals("nioppn", reversedText);
+        [Fact]
+        public void TestReverseParenthesisTestTwo() 
+        {
+            string text = "ne(ar(soft) is aw(eso)me)";
+            string reversedText = ReverseParenthesis.ReverseParenthesis(text);
+            Assert.Equal("neemesowa si softra", reversedText);
+        }
+
+
+        [Fact]
+        public void TestReverseParenthesisTestThree() 
+        {
+            string text = "The ((quick (brown) (fox) jumps over the lazy) dog)";
+            string reversedText = ReverseParenthesis.ReverseParenthesis(text);
+            Assert.Equal("The god quick nworb xof jumps over the lazy", reversedText);
+        }
+
+        [Fact]
+        public void TestReverseParenthesisTestFour() 
+        {
+            string text = "(Preecla(mpsia is a p(regnancy compl(ication cha)racterize(d by hig)h blood )pres)su)re and signs of damage to a(nother organ syste)m";
+            string reversedText = ReverseParenthesis.ReverseParenthesis(text);
+            Assert.Equal("usmpsia is a p doolb hd by higeziretcarication chalpmoc ycnangerpresalceerPre and signs of damage to aetsys nagro rehtonm", reversedText);
+        }
+
     }
-
-
-    @Test
-    public void testReverseParenthesisTestTwo() {
-        String text = "ne(ar(soft) is aw(eso)me)";
-        String reversedText = ReverseParenthesis.reverseParenthesis(text);
-        assertEquals("neemesowa si softra", reversedText);
-    }
-
-
-    @Test
-    public void testReverseParenthesisTestThree() {
-        String text = "The ((quick (brown) (fox) jumps over the lazy) dog)";
-        String reversedText = ReverseParenthesis.reverseParenthesis(text);
-        assertEquals("The god quick nworb xof jumps over the lazy", reversedText);
-    }
-
-    @Test
-    public void testReverseParenthesisTestFour() {
-        String text = "(Preecla(mpsia is a p(regnancy compl(ication cha)racterize(d by hig)h blood )pres)su)re and signs of damage to a(nother organ syste)m";
-        String reversedText = ReverseParenthesis.reverseParenthesis(text);
-        assertEquals("usmpsia is a p doolb hd by higeziretcarication chalpmoc ycnangerpresalceerPre and signs of damage to aetsys nagro rehtonm", reversedText);
-    }
-
 }
