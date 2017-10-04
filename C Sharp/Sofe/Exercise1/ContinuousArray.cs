@@ -5,7 +5,7 @@ namespace Sofe.Exercise1
     public class ContinuousArray
     {
         
-        internal static bool AlmostIncreasingSequence(int[] sequence) 
+        internal static bool IsAlmostIncreasingSequence(int[] sequence)
         {
             return false;
         }
