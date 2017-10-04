@@ -6,7 +6,7 @@ namespace Sofe.Exercise2
     {
         internal static string ReverseParenthesis(string text) 
         {
-            return null;
+            return "";
         }
     }
 }
