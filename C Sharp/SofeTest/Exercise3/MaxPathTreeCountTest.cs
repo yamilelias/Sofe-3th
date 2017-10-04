@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Sofe.extra
+namespace Sofe.Exercise3
 {
     public class MaxPathTreeCountTest
     {

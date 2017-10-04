@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Sofe.extra
+namespace Sofe.Exercise1
 {
     public class ContinuousArrayTest {
 
