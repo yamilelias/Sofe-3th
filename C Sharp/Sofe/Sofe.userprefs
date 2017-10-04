@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{D00F3872-2845-4FE8-AF73-96B26CF5CD65}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sofe/Traveler.cs">
+    <Files>
+      <File FileName="Sofe/Traveler.cs" Line="1" Column="1" />
+      <File FileName="SofeTest/TravelerTest.cs" Line="58" Column="65" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sofe" expanded="True">
+            <Node name="Sofe" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Sofe" expanded="True">
+                <Node name="Traveler.cs" selected="True" />
+              </Node>
+              <Node name="SofeTest" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Sofe PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
