@@ -1,4 +1,4 @@
-package sofe;
+package sofe.extra;
 
 import org.junit.Test;
 

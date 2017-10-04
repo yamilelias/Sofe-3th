@@ -14,4 +14,4 @@ Java/.classpath
 Java/.project
 Java/.settings/*
 Java/Sofe/target/*
-
+.idea/*

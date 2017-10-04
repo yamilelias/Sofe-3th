@@ -1,4 +1,4 @@
-package sofe;
+package sofe.extra;
 
 public class Traveler {
     static int minimizeTravel(int[][] adjacencyMatrix) {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Sofe
+namespace Sofe.extra
 {
     public class Traveler
     {
