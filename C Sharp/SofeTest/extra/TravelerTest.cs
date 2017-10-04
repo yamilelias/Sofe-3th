@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Sofe.extra
+namespace Sofe.Extra
 {
     
     public class TravelerTest
