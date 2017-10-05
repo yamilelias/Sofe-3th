@@ -31,12 +31,11 @@ namespace Sofe.Exercise1
         }
 
         [Fact]
-        public void TestAlmostIncreasingSequenceFour() 
+        public void TestAlmostIncreasingSequenceFour()
         {
-            int[] array = {-127, -64, -50, -10, 2, 4, 5, 6, 7, 8, 12, 16, 40};
+            int[] array = { -127, -64, -50, -10, 2, 4, 5, 6, 7, 8, 12, 16, 40 };
             bool isSequence = ContinuousArray.IsAlmostIncreasingSequence(array);
             Assert.Equal(true, isSequence);
         }
-
     }
 }

@@ -16,4 +16,7 @@
     <Folder Include="Sofe\" />
     <Folder Include="SofeTest\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="SofeTest\Exercise3\TreeNode.cs" />
+  </ItemGroup>
 </Project>

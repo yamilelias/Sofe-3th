@@ -4,9 +4,9 @@ namespace Sofe.Exercise3
 {
     public class TreeNode
     {
-        TreeNode Left;
-        TreeNode Right;
-        int Value;
+        public TreeNode Left;
+        public TreeNode Right;
+        public int Value;
 
         public TreeNode(int Value, TreeNode Left = null, TreeNode Right = null)
         {

@@ -2,7 +2,7 @@ using System;
 
 namespace Sofe.Exercise2
 {
-    public class ReverseParenthesis
+    public class ParenthesisReversor
     {
         internal static string ReverseParenthesis(string text) 
         {
