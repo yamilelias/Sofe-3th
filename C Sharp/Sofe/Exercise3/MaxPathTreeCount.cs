@@ -8,6 +8,5 @@ namespace Sofe.Exercise3
         {
             return 0;
         }
-    }
-
+	}
 }

@@ -1,9 +1,11 @@
 using System;
 using Xunit;
+using Sofe.Exercise3;
 
 namespace Sofe.Exercise1
 {
-    public class ContinuousArrayTest {
+    public class ContinuousArrayTest 
+    {
 
         [Fact]
         public void TestAlmostIncreasingSequenceOne() 
