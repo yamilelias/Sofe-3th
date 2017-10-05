@@ -5,7 +5,7 @@
     };
 
     ContinuousArray.isAlmostIncreasingSequence = function (sequence) {
-        return false;
+        return null;
     }
 
 })();

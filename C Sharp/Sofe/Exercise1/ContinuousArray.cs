@@ -6,7 +6,7 @@ namespace Sofe.Exercise1
     {
         internal static bool IsAlmostIncreasingSequence(int[] sequence)
         {
-            return false;
+            return null;
         }  
     }
 }
