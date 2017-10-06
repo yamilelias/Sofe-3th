@@ -1,0 +1,8 @@
+C:\working\sofe\Sofe\bin\Debug\netcoreapp1.1\Sofe.deps.json
+C:\working\sofe\Sofe\bin\Debug\netcoreapp1.1\Sofe.dll
+C:\working\sofe\Sofe\bin\Debug\netcoreapp1.1\Sofe.pdb
+C:\working\sofe\Sofe\obj\Debug\netcoreapp1.1\Sofe.csprojResolveAssemblyReference.cache
+C:\working\sofe\Sofe\obj\Debug\netcoreapp1.1\Sofe.csproj.CoreCompileInputs.cache
+C:\working\sofe\Sofe\obj\Debug\netcoreapp1.1\Sofe.AssemblyInfo.cs
+C:\working\sofe\Sofe\obj\Debug\netcoreapp1.1\Sofe.dll
+C:\working\sofe\Sofe\obj\Debug\netcoreapp1.1\Sofe.pdb

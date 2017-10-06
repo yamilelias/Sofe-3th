@@ -3,11 +3,11 @@ using Xunit;
 
 namespace Sofe.Exercise2
 {
-    public class ReverseParenthesisTest 
+    public class ReverseParenthesisTest
     {
 
         [Fact]
-        public void TestReverseParenthesisTestOne() 
+        public void TestReverseParenthesisTestOne()
         {
             string text = "ni(ppo)n";
             string reversedText = ParenthesisReversor.ReverseParenthesis(text);
@@ -16,7 +16,7 @@ namespace Sofe.Exercise2
 
 
         [Fact]
-        public void TestReverseParenthesisTestTwo() 
+        public void TestReverseParenthesisTestTwo()
         {
             string text = "ne(ar(soft) is aw(eso)me)";
             string reversedText = ParenthesisReversor.ReverseParenthesis(text);
@@ -25,7 +25,7 @@ namespace Sofe.Exercise2
 
 
         [Fact]
-        public void TestReverseParenthesisTestThree() 
+        public void TestReverseParenthesisTestThree()
         {
             string text = "The ((quick (brown) (fox) jumps over the lazy) dog)";
             string reversedText = ParenthesisReversor.ReverseParenthesis(text);
@@ -33,7 +33,7 @@ namespace Sofe.Exercise2
         }
 
         [Fact]
-        public void TestReverseParenthesisTestFour() 
+        public void TestReverseParenthesisTestFour()
         {
             string text = "(Preecla(mpsia is a p(regnancy compl(ication cha)racterize(d by hig)h blood )pres)su)re and signs of damage to a(nother organ syste)m";
             string reversedText = ParenthesisReversor.ReverseParenthesis(text);

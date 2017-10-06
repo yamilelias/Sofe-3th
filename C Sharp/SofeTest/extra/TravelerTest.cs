@@ -3,7 +3,7 @@ using Xunit;
 
 namespace Sofe.Extra
 {
-    
+
     public class TravelerTest
     {
         [Fact]
@@ -13,8 +13,8 @@ namespace Sofe.Extra
                 {0,1,2},
                 {1,0,1},
                 {2,1,0}};
-			int result = Traveler.MinimizeTravel(adjacencyMatrix);
-			Assert.Equal(4, result);
+            int result = Traveler.MinimizeTravel(adjacencyMatrix);
+            Assert.Equal(4, result);
         }
 
         [Fact]
@@ -34,7 +34,7 @@ namespace Sofe.Extra
         public void TestMinimizeTravelHard()
         {
             int[,] adjacencyMatrixHard = {
-				{0, 54, 41, 41, 43, 40, 55, 50, 54, 56},
+                {0, 54, 41, 41, 43, 40, 55, 50, 54, 56},
                 {54, 0, 42, 47, 50, 53, 57, 54, 54, 46},
                 {41, 42, 0, 47, 53, 41, 56, 46, 57, 58},
                 {41, 47, 47, 0, 55, 45, 56, 57, 53, 49},
@@ -44,8 +44,8 @@ namespace Sofe.Extra
                 {50, 54, 46, 57, 58, 59, 48, 0, 51, 52},
                 {54, 54, 57, 53, 46, 51, 51, 51, 0, 51},
                 {56, 46, 58, 49, 40, 53, 48, 52, 51, 0}};
-			int resultHard = Traveler.MinimizeTravel(adjacencyMatrixHard);
-			Assert.Equal(440, resultHard);
+            int resultHard = Traveler.MinimizeTravel(adjacencyMatrixHard);
+            Assert.Equal(440, resultHard);
         }
 
         [Fact]
@@ -63,8 +63,8 @@ namespace Sofe.Extra
                 {52, 56, 42, 44, 59, 47, 51, 44, 0, 50, 58},
                 {51, 59, 56, 48, 58, 57, 45, 49, 50, 0, 54},
                 {41, 52, 54, 43, 46, 49, 52, 48, 58, 54, 0}};
-			int resultHarder = Traveler.MinimizeTravel(adjacencyMatrixHarder);
-			Assert.Equal(475, resultHarder);
+            int resultHarder = Traveler.MinimizeTravel(adjacencyMatrixHarder);
+            Assert.Equal(475, resultHarder);
         }
     }
 }

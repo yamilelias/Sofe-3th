@@ -1,0 +1,15 @@
+C:\working\sofe\SofeTest\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\working\sofe\SofeTest\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\working\sofe\SofeTest\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\working\sofe\SofeTest\bin\Debug\netcoreapp1.1\SofeTest.deps.json
+C:\working\sofe\SofeTest\bin\Debug\netcoreapp1.1\SofeTest.runtimeconfig.json
+C:\working\sofe\SofeTest\bin\Debug\netcoreapp1.1\SofeTest.runtimeconfig.dev.json
+C:\working\sofe\SofeTest\bin\Debug\netcoreapp1.1\SofeTest.dll
+C:\working\sofe\SofeTest\bin\Debug\netcoreapp1.1\SofeTest.pdb
+C:\working\sofe\SofeTest\bin\Debug\netcoreapp1.1\Sofe.dll
+C:\working\sofe\SofeTest\bin\Debug\netcoreapp1.1\Sofe.pdb
+C:\working\sofe\SofeTest\obj\Debug\netcoreapp1.1\SofeTest.csprojResolveAssemblyReference.cache
+C:\working\sofe\SofeTest\obj\Debug\netcoreapp1.1\SofeTest.csproj.CoreCompileInputs.cache
+C:\working\sofe\SofeTest\obj\Debug\netcoreapp1.1\SofeTest.AssemblyInfo.cs
+C:\working\sofe\SofeTest\obj\Debug\netcoreapp1.1\SofeTest.dll
+C:\working\sofe\SofeTest\obj\Debug\netcoreapp1.1\SofeTest.pdb
