@@ -64,3 +64,23 @@ El resultado no debera de contener ningun parentesis.
     Tendrias que poner al revez la cadena que esta entre esos parentesis de nuevo y tu salida final seria la siguiente
     
  - reverseParenthesis = "akjhigfdecb";
+ 
+ 
+# Problema 3
+##### Max Path Count
+Se tiene un arbol binario como este:
+
+<img src="https://raw.githubusercontent.com/NSnflores/Sofe-3th/master/tree.png" width="300" height="250" />
+
+Podemos notar que si seguimos cualquier camino desde el nodo padre, hasta cualquier hoja, sumando los valores de los nodos que recorremos, la mayor suma que podemos obtener es **4**.
+Esta suma de **4** la podemos obtener con **3** caminos diferentes, esta cantidad de veces que se repite la mayor suma desde el nodo padre hasta cualquier hoja, es lo que llamamos **Max Path Count**.
+
+La funcion que se te pide toma un objeto de tipo **TreeNode**, el cual tiene la siguiente estructura:
+```
+TreeNode {
+    Left: TreeNode (puede ser null)
+	Right: TreeNode (puede ser null)
+	Value: int
+}
+```
+Este nodo recibido, representa el nodo padre del arbol a determinar su **Max Path Count**.
