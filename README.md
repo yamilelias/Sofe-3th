@@ -18,6 +18,8 @@ Solamente te pedimos que le agregues `- Equipo ` y el numero de equipo en el que
 
  - `git push`: Despues de cometer la accion anterior, necesitas hacer un push para que se queden guardados en tu repositorio en GitHub.
 
+
+
 # TDD
 Test Driven Development es un proceso de desarrollo de software que se basa en la repetición de un ciclo de desarrollo muy corto.
 
@@ -32,8 +34,10 @@ Generalmente se sigue los siguientes pasos:
  - Refactorizar codigo
  - Repetir
 
+
+
 # Problema 1
-##### AlmostIncreasingSequence
+##### Almost Increasing Sequence
 
 Dada una secuencia de enteros como un array, determinar si se puede obtener una secuencia estrictamente en incremento, removiendo no mas de un elemento del array.
 ###### Ejemplos
@@ -47,6 +51,7 @@ almostIncreasingSequence(sequence) = true;
     
     Es posible remover el numero 3 y asi obtener la secuencia [1, 2], la cual va en estricto incremento.
 De manera alterna, tambien es posible remover el numero 2, obteniendo la secuencia [1, 3], la cual tambien va en incremento.
+
 
 
 # Problema 2
@@ -78,6 +83,7 @@ El resultado no debera de contener ningun parentesis.
     
  - reverseParenthesis = "akjhigfdecb";
  
+
  
 # Problema 3
 ##### Max Path Count
