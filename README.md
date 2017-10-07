@@ -103,3 +103,23 @@ TreeNode {
 }
 ```
 Este nodo recibido, representa el nodo padre del arbol a determinar su **Max Path Count**.
+
+
+# Problema Extra
+##### Traveler
+Se tiene un grafo no dirigido como este:
+
+<img src="https://raw.githubusercontent.com/NSnflores/Sofe-3th/master/graph.png" width="300" height="250" />
+
+El cual, tiene esta [matriz de adyacencia](https://es.wikipedia.org/wiki/Matriz_de_adyacencia):
+```
+{{0, 2, 2},
+ {2, 0, 4},
+ {2, 4, 0}}
+```
+Si queremos pasar por todos los nodos exactamente **una** vez y volver al origen, tenemos que recorrer una distancia de **6**, en este grafo solo existe una forma de realizarlo.
+
+En este problema la funcion a realizar toma una matriz de adyacencia de grafos con muchisimos caminos, hay que retornar la distancia **minima** a recorrer, pasando exactamente una vez por cada nodo y volver al origen.
+En las pruebas de este problema, se incluye un grafo con 12 nodos, esto quiere decir **479,001,600** rutas diferentes, asi que recorrer **todos** los caminos no es muy buena idea.
+
+
