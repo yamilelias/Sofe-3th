@@ -9,22 +9,14 @@ Puedes descargarlo aqui
 
 Los comandos a utilizar para esta face, serian los siguientes
 
- - git clone URL
+ - `git clone URL`: Clona un repositorio completo a tu maquina para poder trabajar.
 
-Clona un repositorio completo a tu maquina para poder trabajar.
-
- - git add all
-
-Cuando tengas cambios que subir a tu repositorio, necesitas decirle cuales, para esto, puedes agregar todos los que modificaste.
+ - `git add all`: Cuando tengas cambios que subir a tu repositorio, necesitas decirle cuales, para esto, puedes agregar todos los que modificaste.
     
- - git commit -m "MESSAGE - Equipo N"
-
-Despues de agregarlos, necesitas agregar un comentario para los cambios que hayas hecho, aqui es tu desicion que poner.
+ - `git commit -m "MESSAGE - Equipo N"`: Despues de agregarlos, necesitas agregar un comentario para los cambios que hayas hecho, aqui es tu desicion que poner.
 Solamente te pedimos que le agregues `- Equipo ` y el numero de equipo en el que estas, por ejemplo `Este es un comentario - Equipo 5`
 
- - git push
-
-Despues de cometer la accion anterior, necesitas hacer un push para que se queden guardados en tu repositorio en GitHub.
+ - `git push`: Despues de cometer la accion anterior, necesitas hacer un push para que se queden guardados en tu repositorio en GitHub.
 
 
 # Problema 1
