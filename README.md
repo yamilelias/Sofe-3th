@@ -18,6 +18,19 @@ Solamente te pedimos que le agregues `- Equipo ` y el numero de equipo en el que
 
  - `git push`: Despues de cometer la accion anterior, necesitas hacer un push para que se queden guardados en tu repositorio en GitHub.
 
+# TDD
+Test Driven Development es un proceso de desarrollo de software que se basa en la repetición de un ciclo de desarrollo muy corto.
+
+En primer lugar, el desarrollador escribe un caso de prueba (que inicialmente falla) que define una mejora deseada o una nueva función, luego produce la cantidad mínima de código para pasar esa prueba y finalmente refactoriza el nuevo código a estándares aceptables.
+
+Generalmente se sigue los siguientes pasos:
+
+ - Añadir una prueba
+ - Ejecutar todas las pruebas y ver si la nueva falla
+ - Escribir un código
+ - Ejecutar pruebas
+ - Refactorizar codigo
+ - Repetir
 
 # Problema 1
 ##### AlmostIncreasingSequence
