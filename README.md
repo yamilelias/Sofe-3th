@@ -98,8 +98,8 @@ La funcion que se te pide toma un objeto de tipo **TreeNode**, el cual tiene la 
 ```
 TreeNode {
     Left: TreeNode (puede ser null)
-	Right: TreeNode (puede ser null)
-	Value: int
+    Right: TreeNode (puede ser null)
+    Value: int
 }
 ```
 Este nodo recibido, representa el nodo padre del arbol a determinar su **Max Path Count**.
